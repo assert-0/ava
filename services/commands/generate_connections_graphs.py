@@ -7,6 +7,7 @@ from forge_cli.admin import cli
 from forge.utils.mongo import MongoClientKeeper
 import forge
 
+
 @cli.command()
 def generate_connections_graphs():
     graphs_path = "./services/armory/public/"

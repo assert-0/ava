@@ -1,3 +1,5 @@
+*.iml
+
 .env
 .credentials
 *.err
